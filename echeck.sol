@@ -21,6 +21,7 @@ contract eCheckContrac{
         uint    memberID;
         address entityAddress;
         uint    state;
+        uint    score;
     }   
     mapping(address => member) mapMember;
 
